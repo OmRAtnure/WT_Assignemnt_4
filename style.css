@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: brown;
+    display: flex;
+    /* justify-items: center; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+body{
+    background-color: antiquewhite;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+nav a{
+    text-decoration: none;
+    color: lightblue;
+    padding: 0 0.4em;
+    font-size: 1em;
+}
+
+h1 {
+    font-size:2.5em;
+    color: lightblue;
+    padding-left: 0.5em;
+}
+
+.Hero{
+    background-color: rgb(205, 241, 241);
+    margin: 3em;
+    height: 20em;
+    border-radius: 2em;
+    display: grid;
+    place-items: center;
+}
+
+.Hero p{
+
+    font-size: 3em;
+}
+
+footer {
+     background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;  
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 2em;
+}
+
+.container {
+    background-color: rgb(205, 241, 241);
+    margin: 3em;
+    height: 20em;
+    width: 40em;
+    position: relative;
+    left: 45%;
+    transform: translate(-50%);
+    border-radius: 2em;
+    /* display: grid;
+    place-items: center; */
+}
+
+.inputDiv{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 0.5em;
+    padding-left: 10%;
+
+    
+}
+
+.inputDiv input {
+    height: 2em;
+}
+
+.inputDiv label {
+    font-size: 1.3em;
+}
